@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<title> Home Page </title>
+
+<head>
+    <link rel="stylesheet" href="../css/assets.css">
+    
+    <h2 align=center> Home Page </h2><br>
+</head>
+
+<body>
+    <div>
+        <div class="column2">
+            <br>
+        </div>
+
+        <div class="column">
+            <form method="POST">
+                <fieldset>
+                    <legend>Encryption</legend>
+                    <label for="method" class="form-label mt-4">Method</label><br>
+                    <select class="form-select" id="method_id1"name="method_id1"> 
+                        <option> MD5 </option>
+                        <option> SHA1 </option>
+                        <option> SHA256 </option>
+                        <option> SHA512 </option>
+                    </select>
+
+                    <br>
+                    <label for="word" class="form-label mt-1">Word</label>
+                    <input class="form-control" id="Word" name="Word" rows="1"/>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Go Result</button>
+                    <br>
+                    <label for="result" class="form-label mt-4">Result</label>
+                    <textarea type="text" id="result1" name="result1" value="result" rows="2" class="form-control">{{.Result2}}</textarea>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="column3">
+            <br>
+        </div>
+    
+        <div class="column">
+            <form method="POST">
+                <fieldset>
+                    <legend>Decryption</legend>
+                    <br>                  
+                    <label for="method" class="form-label mt-4">Method</label><br>
+                    <select class="form-select" id="method_id2" name="method_id2"> 
+                        <option> MD5 </option>
+                        <option> SHA1 </option>
+                        <option> SHA256 </option>
+                        <option> SHA512 </option>
+                    </select>
+                    <br>
+                    <label for="hash" class="form-label mt-1">Hash</label>
+                    <textarea class="form-control" id="Hash" name="Hash" rows="2"></textarea>
+                    <label for="rules" class="form-label mt-1">Rules</label>
+                    <select class="form-select" id="rules_id" name="rules_id"> 
+                            <option>No Rule</option> 
+                            <option>Make first letter great</option>  
+                            <option>Add 1 to end of word</option>  
+                            <option>Add 12 to end of word</option>  
+                            <option>Add 123 to end of word</option>   
+                        </select>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Go Result</button>
+                    <br>
+
+                        <label for="result" class="form-label mt-4">Result</label>
+                        <textarea type="text" id="result2" name="result2" value="result2" rows="2" class="form-control">{{.Result}}</textarea>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="column2">
+            <br>
+        </div>
+    </div>
+
+    <body>
+
+</html>
