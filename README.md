@@ -18,10 +18,13 @@ The application works in 2 different modes. These modes are CLI mode and Web mod
 ### CLI
 - Encryption;
 <img src="https://cdn.discordapp.com/attachments/235414073024446464/929762669311963166/unknown.png" alt="logo" width="100%">
+
 - Crack with default wordlist;
 <img src="https://cdn.discordapp.com/attachments/235414073024446464/929760004058259476/unknown.png" alt="logo" width="100%">
+
 - Crack with custom wordlist;
 <img src="https://cdn.discordapp.com/attachments/235414073024446464/929761493795344415/unknown.png" alt="logo" width="100%">
+
 - Crack hash with rule;
 <img src="https://cdn.discordapp.com/attachments/235414073024446464/929766852689801266/unknown.png" alt="logo" width="100%">
 <img src="https://cdn.discordapp.com/attachments/235414073024446464/929766513710354532/unknown.png" alt="logo" width="100%">
