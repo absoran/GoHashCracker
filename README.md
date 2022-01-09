@@ -25,6 +25,7 @@ The application works in 2 different modes. These modes are CLI mode and Web mod
 - Crack hash with rule;
 <img src="https://cdn.discordapp.com/attachments/235414073024446464/929766852689801266/unknown.png" alt="logo" width="100%">
 <img src="https://cdn.discordapp.com/attachments/235414073024446464/929766513710354532/unknown.png" alt="logo" width="100%">
+
 ### Web
 when user want to use web mode --mode flag must be set to web then web pages will be reachable
 
@@ -35,6 +36,7 @@ when user want to use web mode --mode flag must be set to web then web pages wil
 
 - Signup page
 <img src="https://cdn.discordapp.com/attachments/235414073024446464/929770911341609040/unknown.png" alt="logo" width="80%">
+
 - Homepage
 <img src="https://cdn.discordapp.com/attachments/235414073024446464/929771217358057512/unknown.png" alt="logo" width="80%">
 <img src="https://cdn.discordapp.com/attachments/235414073024446464/929771361973469224/unknown.png" alt="logo" width="80%">
