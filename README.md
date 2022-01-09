@@ -7,7 +7,7 @@ This purpose of this project is crack the most commonly used hash algorithms. Th
 
 - [Go](https://go.dev/) 
 - JSON Web Token ([JWT](https://jwt.io/)) in authentication with this [library](https://github.com/dgrijalva/jwt-go)
-- Used [PostgeSQL](https://www.postgresql.org/)'s cloud version [ElephantSQL](https://www.elephantsql.com/) with this driver [library](https://github.com/lib/pq)
+- Used [PostgeSQL](https://www.postgresql.org/)'s cloud version [ElephantSQL](https://www.elephantsql.com/) with this [driver](https://github.com/lib/pq)
 - Hypertext Markup Language (HTML)
 - Cascading Style Sheets (CSS)
 
