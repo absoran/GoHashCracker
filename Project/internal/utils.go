@@ -46,7 +46,7 @@ func GetInputData() (input models.Input, err error) {
 	hash := flag.String("hash", "default", "a hash for crack")
 	haswordlist := flag.Bool("haswordlist", false, "wordlist to hash all elements")
 	rule := flag.String("rules", "", "rules for improve match chance")
-	filepath := flag.String("filepath", "../rockyou.txt", "wordlist location")
+	filepath := flag.String("filepath", "rockyou.txt", "wordlist location")
 	flag.Parse()
 	data := models.Input{
 		Method:      *method,
